@@ -1,5 +1,7 @@
 import './App.css'
+import Contact from './components/contact/contac'
 import Footer from './components/footer/footer'
+import Gallery from './components/gallery/gallery'
 import Header from './components/header/header'
 import Hero from './components/hero/hero'
 
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <Gallery />
+        <Contact />
       </main>
       <Footer />
     </>
