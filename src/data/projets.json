@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Portfolio Web",
+    "text": "Un site personnel développé avec React et Tailwind pour présenter mes projets.",
+    "image": "/images/portfolio.png",
+    "github": "Lien gitbhub",
+    "page": "lien page",
+    "tags": ["REACT", "SCSS"],
+    "category": "openclassroom"
+  },
+  {
+    "title": "Application Mobile",
+    "text": "Une app mobile cross-platform construite avec React Native et Expo.",
+    "image": "/images/mobile-app.png",
+    "github": "Lien gitbhub",
+    "page": "lien page",
+    "tags": ["REACT", "SCSS"],
+    "category": "openclassroom"
+  },
+  {
+    "title": "Dashboard Analytics",
+    "text": "Un tableau de bord interactif avec graphiques en temps réel utilisant Vite et Recharts.",
+    "image": "/images/dashboard.png",
+    "github": "Lien gitbhub",
+    "page": "lien page",
+    "tags": ["REACT", "SCSS"],
+    "category": "openclassroom"
+  }
+]
