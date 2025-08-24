@@ -1,7 +1,13 @@
 .contact{
+    text-align: center;
 
     &__form{
         display: flex;
         flex-direction: column;
+
+        &-button{
+            width: fit-content;
+            margin: 0 auto;
+        }
     }
 }

@@ -25,7 +25,7 @@ export default function Contact(){
                     <p>Message:</p>
                     <textarea></textarea>
                 </label>
-                <button type="submit" onClick={handleSubmit}>Envoyer</button>
+                <button className='contact__form-button' type="submit" onClick={handleSubmit}>Envoyer</button>
             </form>
         </section>
     )

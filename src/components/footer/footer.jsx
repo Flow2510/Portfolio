@@ -2,7 +2,7 @@ import './footer.scss';
 
 export default function Footer(){
     return(
-        <footer>
+        <footer className='footer'>
             <p>Copyright 2025</p>
         </footer>
     )
