@@ -6,7 +6,7 @@ export default function Contact(){
     }
 
     return(
-        <section className='contact'>
+        <section className='contact' id='contact'>
             <h2 className='contact__title'>Contact</h2>
             <form className='contact__form' action="" >
                 <label htmlFor="">
@@ -16,6 +16,10 @@ export default function Contact(){
                 <label htmlFor="">
                     <p>Email:</p>
                     <input type="email"/>
+                </label>
+                <label htmlFor="">
+                    <p>Objet</p>
+                    <input type="text" />
                 </label>
                 <label htmlFor="">
                     <p>Message:</p>

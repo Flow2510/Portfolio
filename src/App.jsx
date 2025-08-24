@@ -1,5 +1,5 @@
 import './App.css'
-import Contact from './components/contact/contac'
+import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 import Gallery from './components/gallery/gallery'
 import Header from './components/header/header'
