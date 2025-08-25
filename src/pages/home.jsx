@@ -2,6 +2,7 @@ import { useState } from "react";
 import Slide from "../components/slide/slide";
 import data from '../data/slide.json'
 import Intro from "../components/intro/intro";
+import Projects from "../components/projects/projects";
 
 export default function Home() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -18,6 +19,7 @@ export default function Home() {
                 setActiveIndex={setActiveIndex}
             />
             <Intro />
+            <Projects />
         </main>
     )
 }
