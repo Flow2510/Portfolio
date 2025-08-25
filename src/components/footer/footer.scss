@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    color: #c4c4c4;
+
+    &__social{
+        font-size: 1.5rem;
+        display: flex;
+        gap: 0.5rem;
+
+        &-link{
+            color: inherit;
+
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}

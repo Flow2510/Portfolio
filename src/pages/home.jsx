@@ -3,6 +3,7 @@ import Slide from "../components/slide/slide";
 import data from '../data/slide.json'
 import Intro from "../components/intro/intro";
 import Projects from "../components/projects/projects";
+import Contact from "../components/contact/contact";
 
 export default function Home() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -20,6 +21,7 @@ export default function Home() {
             />
             <Intro />
             <Projects />
+            <Contact />
         </main>
     )
 }

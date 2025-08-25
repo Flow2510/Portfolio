@@ -4,6 +4,7 @@ import Header from './components/header/header'
 import Home from './pages/home'
 import About from './pages/about'
 import Contact from './pages/contact'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/about' element={<About />}/>
         <Route path='/contact' element={<Contact />}/>
       </Routes>
+      <Footer />
     </>
   )
 }
