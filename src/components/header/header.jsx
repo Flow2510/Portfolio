@@ -26,7 +26,9 @@ export default function Header() {
                             Contact
                         </Link>
                         <div className="header__social">
-                        {/* icônes médias sociaux */}
+                            <Link className="footer__social-link"><i className="fa-brands fa-github"></i></Link>
+                            <Link className="footer__social-link"><i className="fa-brands fa-linkedin"></i></Link>
+                            <Link className="footer__social-link"><i className="fa-solid fa-envelope"></i></Link>
                         </div>
                     </div>
                 </div>
