@@ -1,38 +1,44 @@
 [
     {
+        "id": "kasa",
         "image": "/public/images/Capture d'écran 2025-08-25 154310.png",
         "alt": "",
-        "title": "",
-        "category": ""
+        "title": "Kasa",
+        "category": "site web"
     },
     {
+        "id": "argentbank",
         "image": "/public/images/Capture d'écran 2025-08-25 154415.png",
         "alt": "",
-        "title": "",
-        "category": ""
+        "title": "ArgentBank",
+        "category": "site web"
     },
     {
+        "id": "space tourism",
         "image": "/public/images/Capture d'écran 2025-08-25 154447.png",
         "alt": "",
-        "title": "",
-        "category": ""
+        "title": "Space Tourism",
+        "category": "site web"
     },
     {
+        "id": "724 events",
         "image": "/public/images/Capture d'écran 2025-08-25 154614.png",
         "alt": "",
-        "title": "",
-        "category": ""
+        "title": "724 events",
+        "category": "site web"
     },
     {
+        "id": "sunnyside",
         "image": "/public/images/Capture d'écran 2025-08-25 154715.png",
         "alt": "",
-        "title": "",
-        "category": ""
+        "title": "Sunnyside Agency",
+        "category": "site web"
     },
     {
+        "id": "social media dashboard",
         "image": "/public/images/Capture d'écran 2025-08-25 154757.png",
         "alt": "",
-        "title": "",
-        "category": ""
+        "title": "Social media Dashboard",
+        "category": "site web"
     }
 ]

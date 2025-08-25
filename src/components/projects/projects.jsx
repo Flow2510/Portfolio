@@ -11,6 +11,8 @@ export default function Projects() {
                     key={index}
                     source={project.image}
                     alt={project.alt}
+                    title={project.title}
+                    subtitle={project.category}
                 />
             ))}
         </section>
