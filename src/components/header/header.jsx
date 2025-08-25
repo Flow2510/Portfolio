@@ -1,0 +1,36 @@
+import { Link } from 'react-router-dom';
+import './header.scss';
+import { useState } from 'react';
+
+export default function Header() {
+    const [showMenu, setShowMenu] = useState(false);
+
+    return(
+        <header className="header">
+            <nav className="header__nav">
+                <Link className="header__title" to="/">
+                    Sendra Florian
+                </Link>
+                <div className={`header__menu ${showMenu ? "header__menu--active" : ""}`}>
+                    <div className="header__menu-wrapper">
+                        <Link className="header__link" to="/">
+                            Accueil
+                        </Link>
+                        <Link className="header__link" to="/about">
+                            À propos
+                        </Link>
+                        <Link className="header__link" to="/contact">
+                            Contact
+                        </Link>
+                        <div className="header__social">
+                        {/* icônes médias sociaux */}
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <button className={`header__button ${showMenu ? "header__button--active" : ""}`} onClick={() => setShowMenu((prev) => !prev)}>
+                <i className="fa-solid fa-bars"></i>
+            </button>
+        </header>
+    )
+}
