@@ -1,0 +1,23 @@
+[
+  {
+    "source": "/public/images/colin-watts-l5oWg7ezXgs-unsplash.jpg",
+    "alt": "Photo 1 description",
+    "subtitle": "Sous-titre du premier objet",
+    "span": "étiquette",
+    "filterGradient": "linear-gradient(135deg, rgba(222, 0, 63, 0.6), rgba(235, 74, 0, 0.6))"
+  },
+  {
+    "source": "/public/images/leandra-rieger-gR5B7ocb-Ww-unsplash.jpg",
+    "alt": "Photo 2 description",
+    "subtitle": "Sous-titre du deuxième objet",
+    "span": "étiquette",
+    "filterGradient": "linear-gradient(135deg, rgba(148, 0, 222, 0.6), rgba(0, 176, 235, 0.6))"
+  },
+  {
+    "source": "/public/images/marek-piwnicki-Qoe1RbKPzMo-unsplash.jpg",
+    "alt": "Photo 1 description",
+    "subtitle": "Sous-titre du premier objet",
+    "span": "étiquette",
+    "filterGradient": "linear-gradient(135deg, rgba(0, 222, 96, 0.6), rgba(0, 188, 235, 0.6))"
+  }
+]

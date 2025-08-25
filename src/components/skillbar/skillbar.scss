@@ -1,0 +1,31 @@
+.skillbar{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    margin-top: 1rem;
+
+    &__background{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #d9d9d9;
+
+        &::before{
+            width: 2px;
+            height: 100%;
+            content: "";
+            display: block;
+            background: rgb(184, 184, 184);
+        }
+    }
+
+    &__title{
+        z-index: 10;
+        position: relative;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+        font-weight: 100;
+        color: #666;
+    }
+}
