@@ -11,8 +11,8 @@ export default function Slide({ source, alt, title, subtitle, span, activeIndex,
             <div className="slide__content">
                 <h1 className="slide__content-title">{title}</h1>
                 <h2 className="slide__content-subtitle">{subtitle} <span>{span}</span></h2>
-                <Link className='slide__content-link'>Mes projets</Link>
-                <Link className='slide__content-link'>Me contacter</Link>
+                <a href="#projects" className='slide__content-link'>Mes projets</a>
+                <a href='#contact' className='slide__content-link'>Me contacter</a>
             </div>
             <div className='slide__dots'>
                 {data.map((_, index) => (

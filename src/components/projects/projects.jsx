@@ -4,7 +4,7 @@ import projects from '../../data/projects.json'
 
 export default function Projects() {
     return(
-        <section className='projects'>
+        <section className='projects' id='projects'>
             <h2 className='projects__title'>Projets</h2>
             {projects.map((project, index) => (
                 <ProjectCard 
