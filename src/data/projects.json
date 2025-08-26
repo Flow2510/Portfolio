@@ -1,44 +1,62 @@
 [
     {
         "id": "kasa",
-        "image": "/public/images/kasa.png",
+        "image": "/images/kasa.png",
         "alt": "",
         "title": "Kasa",
-        "category": "site web"
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "description text"
     },
     {
         "id": "argentbank",
         "image": "/images/Capture d'écran 2025-08-25 154415.png",
         "alt": "",
         "title": "ArgentBank",
-        "category": "site web"
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "description text"
     },
     {
-        "id": "space tourism",
-        "image": "/public/images/Capture d'écran 2025-08-25 154447.png",
+        "id": "spacetourism",
+        "image": "/images/Capture d'écran 2025-08-25 154447.png",
         "alt": "",
         "title": "Space Tourism",
-        "category": "site web"
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "description text"
     },
     {
-        "id": "724 events",
-        "image": "/public/images/Capture d'écran 2025-08-25 154614.png",
+        "id": "724events",
+        "image": "/images/Capture d'écran 2025-08-25 154614.png",
         "alt": "",
         "title": "724 events",
-        "category": "site web"
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "description text"
     },
     {
         "id": "sunnyside",
-        "image": "/public/images/Capture d'écran 2025-08-25 154715.png",
+        "image": "/images/Capture d'écran 2025-08-25 154715.png",
         "alt": "",
         "title": "Sunnyside Agency",
-        "category": "site web"
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "description text"
     },
     {
-        "id": "social media dashboard",
-        "image": "/public/images/Capture d'écran 2025-08-25 154757.png",
+        "id": "socialmediadashboard",
+        "image": "/images/Capture d'écran 2025-08-26 005925.png",
         "alt": "",
         "title": "Social media Dashboard",
-        "category": "site web"
+        "category": "site web",
+        "tags": ["REACT", "SCSS", "Responsive" ],
+        "titleDescription": "Description",
+        "description": "description text"
     }
 ]
