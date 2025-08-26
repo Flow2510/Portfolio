@@ -1,5 +1,18 @@
 .intro{
-    padding: 1rem;
+    padding: 2rem 1rem;
     background-color: #ededed;
     color: #666;
+
+    &__content{
+
+        &-title{
+            font-size: 2rem;
+            font-weight: 300;
+            line-height: 2.1rem;
+        }
+
+        &-text{
+            padding: 1rem 0;
+        }
+    }
 }

@@ -1,6 +1,5 @@
 import './slide.scss';
 import data from '../../data/slide.json'
-import { Link } from 'react-router-dom';
 
 export default function Slide({ source, alt, title, subtitle, span, activeIndex, setActiveIndex }) {
 

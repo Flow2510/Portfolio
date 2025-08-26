@@ -1,14 +1,14 @@
 [
     {
         "id": "kasa",
-        "image": "/public/images/Capture d'écran 2025-08-25 154310.png",
+        "image": "/public/images/kasa.png",
         "alt": "",
         "title": "Kasa",
         "category": "site web"
     },
     {
         "id": "argentbank",
-        "image": "/public/images/Capture d'écran 2025-08-25 154415.png",
+        "image": "/images/Capture d'écran 2025-08-25 154415.png",
         "alt": "",
         "title": "ArgentBank",
         "category": "site web"
