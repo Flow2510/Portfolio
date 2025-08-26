@@ -9,7 +9,7 @@ export default function Slide({ source, alt, title, subtitle, span, activeIndex,
             <div className='slide__background-filter' style={{ background: data[activeIndex].filterGradient }}></div>
             <div className="slide__content">
                 <h1 className="slide__content-title">{title}</h1>
-                <h2 className="slide__content-subtitle">{subtitle} <span>{span}</span></h2>
+                <h2 className="slide__content-subtitle">{subtitle} <span>{span}</span>.</h2>
                 <a href="#projects" className='slide__content-link'>Mes projets</a>
                 <a href='#contact' className='slide__content-link'>Me contacter</a>
             </div>

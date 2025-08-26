@@ -14,6 +14,8 @@
     {
         "id": "argentbank",
         "image": "/images/Capture d'écran 2025-08-25 154415.png",
+        "imageDesktop": "/public/images/argentbank_desktop.png",
+        "imageMobile": "/public/images/argentbank_mobile.png",
         "alt": "",
         "title": "ArgentBank",
         "category": "site web",
@@ -24,6 +26,8 @@
     {
         "id": "spacetourism",
         "image": "/images/Capture d'écran 2025-08-25 154447.png",
+        "imageDesktop": "/images/Capture d'écran 2025-08-25 154447.png",
+        "imageMobile": "/public/images/spacetourism_mobile.png",
         "alt": "",
         "title": "Space Tourism",
         "category": "site web",
@@ -34,6 +38,8 @@
     {
         "id": "724events",
         "image": "/images/Capture d'écran 2025-08-25 154614.png",
+        "imageDesktop": "/images/Capture d'écran 2025-08-25 154614.png",
+        "imageMobile": "",
         "alt": "",
         "title": "724 events",
         "category": "site web",
@@ -44,6 +50,8 @@
     {
         "id": "sunnyside",
         "image": "/images/Capture d'écran 2025-08-25 154715.png",
+        "imageDesktop": "/images/Capture d'écran 2025-08-25 154715.png",
+        "imageMobile": "/images/sunnyside_mobile.png",
         "alt": "",
         "title": "Sunnyside Agency",
         "category": "site web",
@@ -52,10 +60,12 @@
         "description": "description text"
     },
     {
-        "id": "socialmediadashboard",
+        "id": "weblog",
         "image": "/images/Capture d'écran 2025-08-26 005925.png",
+        "imageDesktop": "/images/Capture d'écran 2025-08-26 005925.png",
+        "imageMobile": "",
         "alt": "",
-        "title": "Social media Dashboard",
+        "title": "WeBlog",
         "category": "site web",
         "tags": ["REACT", "SCSS", "Responsive" ],
         "titleDescription": "Description",
