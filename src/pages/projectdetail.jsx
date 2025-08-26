@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import projects from '../data/projects.json';
 import ProjectIntro from "../components/projectintro/projectintro";
 import Description from "../components/description/description";
@@ -19,11 +19,10 @@ export default function ProjectDetail(){
                 description={project.description}
             />
             <Design 
-                imageDesktop={project.image}
-                imageMobile={project.image}
+                imageDesktop={project.imageDesktop}
+                imageMobile={project.imageMobile}
             />
             <Process />
-            <Link to="/contact">Contactez-moi</Link>
         </main>
     )
 }

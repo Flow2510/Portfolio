@@ -1,0 +1,15 @@
+.process{
+
+    &__link{
+        background: none;
+        border: 2px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: 0.6rem 1.2rem;
+        margin: 1rem 1rem 0 0;
+        display: inline-block;
+        width: fit-content;
+        text-decoration: none;
+    }
+}

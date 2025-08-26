@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom"
+import "./process.scss"
+
 export default function Process(){
     return(
         <section className="process">
@@ -17,6 +20,7 @@ export default function Process(){
                 <h3 className="process__content-title">Déploiement / Mise en ligne</h3>
                 <p className="process__content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eveniet id veritatis voluptatem autem vel quasi unde, tempora neque sapiente dolores, rerum itaque molestias optio doloribus quaerat aperiam qui obcaecati.</p>
             </div>
+            <Link className="process__link" to="/contact">Contactez-moi</Link>
         </section>
     )
 }

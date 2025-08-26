@@ -2,6 +2,8 @@
     {
         "id": "kasa",
         "image": "/images/kasa.png",
+        "imageDesktop": "/images/kasa_desktop.png",
+        "imageMobile": "/images/kasa_mobile.png",
         "alt": "",
         "title": "Kasa",
         "category": "site web",
