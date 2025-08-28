@@ -14,9 +14,44 @@
         }
 
         &-container{
-            padding: 0.5rem;
-            background-color: rgb(0, 0, 0);
+            padding: 0.2rem;
+            position: relative;
+            background-color: rgb(184, 184, 184);
             border-radius: 0.3rem;
+            border-top: 2rem solid rgb(184, 184, 184);
+
+            &::after{
+                width: 10px;
+                height: 10px;
+                background-color: red;
+                border-radius: 999px;
+                display: block;
+                content: "";
+                position: absolute;
+                top: -1.2rem;
+                left: 0.5rem;
+            }
+
+            &::before{
+                width: 10px;
+                height: 10px;
+                background-color: yellow;
+                border-radius: 999px;
+                display: block;
+                content: "";
+                position: absolute;
+                top: -1.2rem;
+                left: 1.5rem;
+            }
+        }
+
+        &-searchbar{
+            position: absolute;
+            background-color: white;
+            top: -1.35rem;
+            width: 88%;
+            height: 1rem;
+            right: 0.2rem;
         }
     }
 

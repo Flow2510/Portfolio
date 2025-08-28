@@ -6,6 +6,7 @@ export default function Design({imageDesktop, imageMobile}) {
             <article className='design__desktop'>
                 <h2 className='design__desktop-title'>Website Design</h2>
                 <div className='design__desktop-container'>
+                    <span className='design__desktop-searchbar'></span>
                     <img src={imageDesktop} alt="design of the project on desktop" className='design__desktop-image'/>
                 </div>
             </article>

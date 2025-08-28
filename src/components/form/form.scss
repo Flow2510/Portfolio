@@ -1,4 +1,6 @@
 .form{
+    max-width: 600px;
+    margin: auto;
 
     &__label{
 
@@ -34,5 +36,10 @@
         color: white;
         background: #797979;
         font-size: 1.2rem;
+        cursor: pointer;
+
+        &:hover{
+            background: #797979a6;
+        }
     }
 }

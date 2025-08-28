@@ -1,5 +1,7 @@
 .projects{
     padding: 2rem 0 0 0;
+    max-width: 850px;
+    margin: auto;
     
     &__title{
         padding: 0 1rem 1rem 1rem;
@@ -7,5 +9,15 @@
         font-weight: 300;
         line-height: 2.1rem;
         color: #666;
+        text-align: center;
+    }
+
+    &__gallery{
+
+        @media screen and (min-width:768px) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
     }
 }
